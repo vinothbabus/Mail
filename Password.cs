@@ -1,6 +1,6 @@
 ﻿using System;
 
-public static class Passwor
+public static class Password
 {
     public static string ReadPassword()
     {
@@ -23,6 +23,6 @@ public static class Passwor
         } while (key.Key != ConsoleKey.Enter);
 
         Console.WriteLine();
-        return password;
+        return password; 
     }
 }
