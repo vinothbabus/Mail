@@ -13,7 +13,7 @@ public static class Password
             if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
             {
                 password += key.KeyChar;
-                Console.Write("*");
+                Console.Write("**");
             }
             else if (key.Key == ConsoleKey.Backspace && password.Length > 0)
             {
